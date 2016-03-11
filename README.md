@@ -26,7 +26,7 @@ $ docker run --name centos7-sshd -d -p 10022:22 hidetarou2013/centos7-sshd:1.0
 ## 4.ssh
 
 ```
-$ ssh developer@localhost -p 10022
+$ ssh developer@localhost -p 10022 -i id_rsa
 ```
 
 ### 4.1. connect passphrase
